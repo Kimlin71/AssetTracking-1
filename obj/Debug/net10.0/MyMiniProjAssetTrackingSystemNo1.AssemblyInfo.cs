@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyMiniProjAssetTrackingSystemNo1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2a9276fd307129d6ade8e5d47a53a155baa6d26")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35a2c8ec8d60959e5d2ba9446ad3c34cc7cfa7f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyMiniProjAssetTrackingSystemNo1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyMiniProjAssetTrackingSystemNo1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
