@@ -1,0 +1,6 @@
+.DS_Store
+.github/*
+.vscode/*
+!.vscode/launch.json
+**/bin/
+**/obj/
