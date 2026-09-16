@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kim/GitRepos/MyMiniProjWithAgents/AssetTracking-1/AssetTracking-1.csproj",
+      "projectUniqueName": "/Users/kim/GitRepos/AssetTracking-1/AssetTracking-1.csproj",
       "projectName": "AssetTracking-1",
-      "projectPath": "/Users/kim/GitRepos/MyMiniProjWithAgents/AssetTracking-1/AssetTracking-1.csproj",
+      "projectPath": "/Users/kim/GitRepos/AssetTracking-1/AssetTracking-1.csproj",
       "packagesPath": "/Users/kim/.nuget/packages/",
-      "outputPath": "/Users/kim/GitRepos/MyMiniProjWithAgents/AssetTracking-1/obj/",
+      "outputPath": "/Users/kim/GitRepos/AssetTracking-1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kim/.nuget/NuGet/NuGet.Config"
