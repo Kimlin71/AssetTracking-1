@@ -1,0 +1,56 @@
+[
+  {
+    "$type": "Computer",
+    "id": 1,
+    "brand": "Dell",
+    "model": "XPS 15",
+    "purchaseDate": "2023-10-16",
+    "priceUsd": 1200.00,
+    "office": 0
+  },
+  {
+    "$type": "MobilePhone",
+    "id": 2,
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "purchaseDate": "2024-01-16",
+    "priceUsd": 999.00,
+    "office": 0
+  },
+  {
+    "$type": "Computer",
+    "id": 3,
+    "brand": "Apple",
+    "model": "MacBook Pro",
+    "purchaseDate": "2023-08-01",
+    "priceUsd": 1999.00,
+    "office": 1
+  },
+  {
+    "$type": "MobilePhone",
+    "id": 4,
+    "brand": "Google",
+    "model": "Pixel 8",
+    "purchaseDate": "2024-08-16",
+    "priceUsd": 699.00,
+    "office": 1
+  },
+  {
+    "$type": "Computer",
+    "id": 5,
+    "brand": "Lenovo",
+    "model": "ThinkPad X1",
+    "purchaseDate": "2024-06-16",
+    "priceUsd": 1350.00,
+    "office": 2
+  },
+  {
+    "$type": "MobilePhone",
+    "id": 6,
+    "brand": "Samsung",
+    "model": "Galaxy S23",
+    "purchaseDate": "2023-11-16",
+    "priceUsd": 799.00,
+    "office": 2
+  }
+]
