@@ -3,20 +3,48 @@
 A C# (.NET 10) console application that tracks company assets by office, type, purchase date, price, and currency. Built as an educational project covering OOP, polymorphism, JSON persistence, live currency conversion, and console UI.
 
 ## Prerequisites
+
 - [.NET 10 SDK](https://dotnet.microsoft.com/download)
 - Internet access for live exchange-rate lookup (optional — fallback rates are used on failure)
 
-## Build
+## Getting started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/AssetTracking-1.git
+cd AssetTracking-1
+```
+
+### 2. Restore dependencies
+
+```bash
+dotnet restore
+```
+
+### 3. Build
+
 ```bash
 dotnet build
 ```
 
-## Run
+A successful build produces no errors and places the executable in `bin/Debug/net10.0/`.
+
+### 4. Run
+
 ```bash
 dotnet run
 ```
 
 The data file `assets.json` is created automatically next to the executable on first run. Six seed assets are added when no saved data exists.
+
+### 5. Run tests
+
+```bash
+dotnet test --logger "console;verbosity=normal"
+```
+
+The test project is in `AssetTracking.Tests/` and targets `Domain/Asset.cs` status boundary logic. Expected result: **10 passed, 0 failed** (last verified 2026-09-16).
 
 ## Menu options
 | Option | Action |
@@ -66,4 +94,3 @@ docs/            — architecture, acceptance checklist, workflow log, project c
 See [docs/workflow-log.md](docs/workflow-log.md) for the slice-by-slice decisions and outcomes.
 See [docs/acceptance-checklist.md](docs/acceptance-checklist.md) for the full requirements status.
 See [docs/architecture.md](docs/architecture.md) for design decisions and component contracts.
-
