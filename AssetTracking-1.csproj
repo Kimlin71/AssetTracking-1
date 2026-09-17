@@ -5,6 +5,14 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <!-- Prevents duplicate assembly attributes when the test project references this Exe project. -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Copy seed data to output so the app always finds the correct file regardless of launch path. -->
+    <Content Include="assets.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
 
 </Project>
