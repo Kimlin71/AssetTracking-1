@@ -3,4 +3,4 @@
 .vscode/*
 !.vscode/launch.json
 **/bin/
-**/obj/
+**/obj/.DS_Store
