@@ -94,5 +94,3 @@ docs/            — architecture, acceptance checklist, workflow log, project c
 See [docs/workflow-log.md](docs/workflow-log.md) for the slice-by-slice decisions and outcomes.
 See [docs/acceptance-checklist.md](docs/acceptance-checklist.md) for the full requirements status.
 See [docs/architecture.md](docs/architecture.md) for design decisions and component contracts.
-
-
