@@ -15,4 +15,11 @@
     <Content Include="assets.json" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="AssetTracking.Tests/**/*.cs" />
+    <EmbeddedResource Remove="AssetTracking.Tests/**" />
+    <None Remove="AssetTracking.Tests/**" />
+    <Content Remove="AssetTracking.Tests/**" />
+  </ItemGroup>
+
 </Project>

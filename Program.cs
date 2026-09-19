@@ -54,7 +54,7 @@ while (running)
 
         case "3":
             AssetPrinter.PrintTable(assets
-                .OrderBy(a => a.Office)
+                .OrderBy(a => a.Office.ToString())
                 .ThenBy(a => a.PurchaseDate));
             break;
 
