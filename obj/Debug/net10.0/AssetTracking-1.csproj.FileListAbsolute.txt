@@ -1,0 +1,14 @@
+/Users/kim/GitRepos/AssetTracking-1/obj/Debug/net10.0/AssetTracking-1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kim/GitRepos/AssetTracking-1/obj/Debug/net10.0/AssetTracking-1.csproj.CoreCompileInputs.cache
+/Users/kim/GitRepos/AssetTracking-1/obj/Debug/net10.0/AssetTracking-1.sourcelink.json
+/Users/kim/GitRepos/AssetTracking-1/bin/Debug/net10.0/assets.json
+/Users/kim/GitRepos/AssetTracking-1/bin/Debug/net10.0/AssetTracking-1
+/Users/kim/GitRepos/AssetTracking-1/bin/Debug/net10.0/AssetTracking-1.deps.json
+/Users/kim/GitRepos/AssetTracking-1/bin/Debug/net10.0/AssetTracking-1.runtimeconfig.json
+/Users/kim/GitRepos/AssetTracking-1/bin/Debug/net10.0/AssetTracking-1.dll
+/Users/kim/GitRepos/AssetTracking-1/bin/Debug/net10.0/AssetTracking-1.pdb
+/Users/kim/GitRepos/AssetTracking-1/obj/Debug/net10.0/AssetTracking-1.dll
+/Users/kim/GitRepos/AssetTracking-1/obj/Debug/net10.0/refint/AssetTracking-1.dll
+/Users/kim/GitRepos/AssetTracking-1/obj/Debug/net10.0/AssetTracking-1.pdb
+/Users/kim/GitRepos/AssetTracking-1/obj/Debug/net10.0/AssetTracking-1.genruntimeconfig.cache
+/Users/kim/GitRepos/AssetTracking-1/obj/Debug/net10.0/ref/AssetTracking-1.dll

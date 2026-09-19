@@ -1,0 +1,80 @@
+[
+  {
+    "$type": "Computer",
+    "assetType": "Computer",
+    "id": 1,
+    "brand": "Dell",
+    "model": "XPS 15",
+    "purchaseDate": "2024-01-15",
+    "priceUsd": 1200.00,
+    "office": 0,
+    "endOfLife": "2027-01-15",
+    "monthsRemaining": 4,
+    "status": 1
+  },
+  {
+    "$type": "MobilePhone",
+    "assetType": "Mobile Phone",
+    "id": 2,
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "purchaseDate": "2023-10-20",
+    "priceUsd": 999.00,
+    "office": 0,
+    "endOfLife": "2026-10-20",
+    "monthsRemaining": 1,
+    "status": 2
+  },
+  {
+    "$type": "Computer",
+    "assetType": "Computer",
+    "id": 3,
+    "brand": "Apple",
+    "model": "MacBook Pro",
+    "purchaseDate": "2021-11-10",
+    "priceUsd": 1999.00,
+    "office": 1,
+    "endOfLife": "2024-11-10",
+    "monthsRemaining": -22,
+    "status": 3
+  },
+  {
+    "$type": "MobilePhone",
+    "assetType": "Mobile Phone",
+    "id": 4,
+    "brand": "Google",
+    "model": "Pixel 8",
+    "purchaseDate": "2024-08-05",
+    "priceUsd": 699.00,
+    "office": 1,
+    "endOfLife": "2027-08-05",
+    "monthsRemaining": 11,
+    "status": 0
+  },
+  {
+    "$type": "Computer",
+    "assetType": "Computer",
+    "id": 5,
+    "brand": "Lenovo",
+    "model": "ThinkPad X1",
+    "purchaseDate": "2024-05-01",
+    "priceUsd": 1350.00,
+    "office": 2,
+    "endOfLife": "2027-05-01",
+    "monthsRemaining": 8,
+    "status": 0
+  },
+  {
+    "$type": "MobilePhone",
+    "assetType": "Mobile Phone",
+    "id": 6,
+    "brand": "Samsung",
+    "model": "Galaxy S23",
+    "purchaseDate": "2024-01-20",
+    "priceUsd": 799.00,
+    "office": 2,
+    "endOfLife": "2027-01-20",
+    "monthsRemaining": 4,
+    "status": 1
+  }
+]
