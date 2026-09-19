@@ -220,3 +220,36 @@
 - What worked: reading `assets.json` directly confirmed the actual purchase dates, catching the stale checklist claim that cited "2021-11-10"
 - What to change next time: keep seed date comments in `Program.cs` in sync with the checklist on every slice
 - Reusable instruction: "After any documentation pass, scan every quoted date and menu option number in the checklist against the live source before signing off."
+
+---
+
+## Slice 8 (Documentation) — 2026-09-17
+- **Goal:** Add missing install, setup, and run sections to `README.md`.
+- **Agent used:** Project Documenter
+- **Prompt file:** `05-document-slice.prompt.md`
+- **Acceptance questions:** README completeness (install, build, run, test)
+
+### Context provided
+- Files: `README.md`, `Program.cs`, `AssetTracking-1.csproj`, `docs/project-context.md`, `docs/acceptance-checklist.md`, `docs/workflow-log.md`
+- Decisions: expand existing Prerequisites/Build/Run into a numbered "Getting started" flow; add `dotnet restore` and `dotnet test` steps
+- Constraints: document only verified behaviour; do not claim fresh build or test pass without evidence from this session
+
+### Outcome
+- Files changed:
+  - `README.md` — Prerequisites and Build/Run sections replaced with a numbered "Getting started" section: 1. Clone, 2. Restore, 3. Build, 4. Run, 5. Run tests (including expected output and last-verified date)
+  - `docs/workflow-log.md` — this entry added
+- Build: not re-run in this session (last confirmed: zero errors, 2026-09-16)
+- Tests: not re-run in this session (last confirmed: 10 passed, 2026-09-16)
+- Manual check: every command in the new README steps cross-checked against `AssetTracking-1.csproj`, `AssetTracking.Tests/AssetTracking.Tests.csproj`, and `Program.cs`
+
+### Review
+- Findings: the `git clone` URL uses a placeholder `<your-username>` — the user should replace this with the actual GitHub remote before sharing
+- Corrections: none
+- Remaining risks:
+  - `git clone` URL is a placeholder; confirm the real remote URL before sharing the README
+  - Build and test pass not re-confirmed this session — run `dotnet test` before submission
+
+### Learning
+- What worked: reading the existing README before editing prevented duplicating content that was already correct
+- What to change next time: record the actual GitHub remote URL in `docs/architecture.md` so documentation slices can use it
+- Reusable instruction: "Add clone + restore + test steps to every project README; a reader who cannot run the tests cannot verify the project works."
